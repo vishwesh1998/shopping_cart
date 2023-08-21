@@ -1,0 +1,45 @@
+1. GET : Category List
+
+"http://apps.codebetter.in:8082/emall/api/category/list"
+			
+2. POST : Category Save
+
+"http://apps.codebetter.in:8082/emall/api/category/save"
+
+	Format : JSON
+			{
+				cate_name : 'TV'
+			}
+
+****************************************************************************			
+
+3. GET : Brand List
+"http://apps.codebetter.in:8082/emall/api/brand/list"
+
+
+4. POST : Brand Save
+
+"http://apps.codebetter.in:8082/emall/api/brand/save"
+
+	Format : JSON
+			{
+				brand_name : 'TV'
+			}
+
+*************************************************************************
+			
+5. GET : Product List			
+			"http://apps.codebetter.in:8082/emall/api/product/list"
+
+6. POST : Product Save
+	"http://apps.codebetter.in:8082/emall/api/product/save"			
+	
+	Format : FormData
+			{
+				prod_name: String,
+				prod_price: Number,
+			        prod_cate: String,
+			        prod_brand: String,
+			        prod_image: Image,
+			}
+**********************************************************************************
